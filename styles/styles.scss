@@ -82,6 +82,7 @@ body{
             }
         }
         .subtitle-paragraph{
+            margin-bottom: 50px;
             .subtitle{
                 font-size: 35px;
                 color: $dark-grey;
@@ -90,5 +91,112 @@ body{
             }
             
         }
+    }
+}
+
+.three-options{
+    display: flex; 
+    .img-wrapper{
+        width:700px;
+        overflow:hidden;
+        margin:0;
+        .monitor{
+            display: block;
+            width: 100%;
+            margin:0 -4%;
+        }
+    }   
+    .options-wrapper{
+        width: 30%;
+        margin-top: 50px;
+        padding-left: 60px;
+        .option{
+            margin-bottom: 40px;
+            .option-title{
+                color: $dark-grey;
+                font-size: 22px;
+                font-weight: bold;
+                margin-bottom: 10px;
+            }
+            .option-text{
+                color: $light-grey;
+                font-size: 16px;
+                line-height: 25px;
+            }
+        }
+    }
+}
+
+.middle{
+    flex-direction: column;
+    @include to-center();
+    margin-top: 120px;
+    .subtitle-paragraph{
+        margin-bottom: 60px;
+        width: 50%;
+        .subtitle{
+            font-size: 35px;
+            color: $dark-grey;
+            font-weight: 600;
+            margin-bottom: 30px;
+        }
+        .grey-text{
+            color: hsl(201, 11%, 66%);
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 30px;
+        }
+    }
+    .devices-img{
+        width: 60%;
+    }
+}
+
+.workflow{
+    flex-direction: column;
+    @include to-center();
+    margin-top: 120px;
+    .subtitle-paragraph{
+        margin-bottom: 60px;
+        width: 50%;
+        .subtitle{
+            font-size: 35px;
+            color: $dark-grey;
+            font-weight: 600;
+            margin-bottom: 25px;
+        }
+        .grey-text{
+            color: hsl(201, 11%, 66%);
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 30px;
+        }
+    }
+    .tools-wrapper{
+        display: flex;
+        width: 75%;
+        margin-bottom: 120px;
+        @include to-center();
+        .tool{
+            width: 30%;
+            justify-content: space-around;
+            .tool-title{
+                color: $dark-grey;
+                font-size: 22px;
+                font-weight: bold;
+                margin-bottom: 10px;
+            }
+            .tool-text{
+                color: $light-grey;
+                font-size: 16px;
+                line-height: 25px;
+            }
+        }
+    }
+    .companies-logos{
+        @include to-center();
+        width: 75%;
+        justify-content: space-around;
+        margin-bottom: 130px;
     }
 }

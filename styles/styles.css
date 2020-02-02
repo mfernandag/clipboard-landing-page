@@ -90,10 +90,185 @@ body {
   margin: 0px 10px;
 }
 
+.front-page .principal-content .subtitle-paragraph {
+  margin-bottom: 50px;
+}
+
 .front-page .principal-content .subtitle-paragraph .subtitle {
   font-size: 35px;
   color: #4c545d;
   font-weight: 600;
   margin-bottom: 30px;
+}
+
+.three-options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.three-options .img-wrapper {
+  width: 700px;
+  overflow: hidden;
+  margin: 0;
+}
+
+.three-options .img-wrapper .monitor {
+  display: block;
+  width: 100%;
+  margin: 0 -4%;
+}
+
+.three-options .options-wrapper {
+  width: 30%;
+  margin-top: 50px;
+  padding-left: 60px;
+}
+
+.three-options .options-wrapper .option {
+  margin-bottom: 40px;
+}
+
+.three-options .options-wrapper .option .option-title {
+  color: #4c545d;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.three-options .options-wrapper .option .option-text {
+  color: #9fabb2;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.middle {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  margin-top: 120px;
+}
+
+.middle .subtitle-paragraph {
+  margin-bottom: 60px;
+  width: 50%;
+}
+
+.middle .subtitle-paragraph .subtitle {
+  font-size: 35px;
+  color: #4c545d;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.middle .subtitle-paragraph .grey-text {
+  color: #9fabb2;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.middle .devices-img {
+  width: 60%;
+}
+
+.workflow {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  margin-top: 120px;
+}
+
+.workflow .subtitle-paragraph {
+  margin-bottom: 60px;
+  width: 50%;
+}
+
+.workflow .subtitle-paragraph .subtitle {
+  font-size: 35px;
+  color: #4c545d;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.workflow .subtitle-paragraph .grey-text {
+  color: #9fabb2;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.workflow .tools-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 75%;
+  margin-bottom: 120px;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.workflow .tools-wrapper .tool {
+  width: 30%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.workflow .tools-wrapper .tool .tool-title {
+  color: #4c545d;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.workflow .tools-wrapper .tool .tool-text {
+  color: #9fabb2;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.workflow .companies-logos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  width: 75%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-bottom: 130px;
 }
 /*# sourceMappingURL=styles.css.map */
